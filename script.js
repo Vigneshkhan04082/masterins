@@ -5,9 +5,9 @@
   /* ---- EDIT THESE DETAILS ONCE; they appear on every page ---- */
   var SITE = {
     name: "Master Tutorial Computer Viji School Of Commerce",
-    phone: "+91 98765 43210",
-    email: "info@mastertutorial.example",
-    address: "123 Main Road, Your City, State - 000000"
+    phone: "8807090355,9344763348",
+    email: "vijischoolofcommerce@gmail.com",
+    address: "1A, R.K.Complex, Mothilal Main Road Corner,Arapplayam Main Road,Near Victory Hospital, Madurai, Tamilnadu - 625016"
   };
   var PAGES = [
     ["index.html", "Home", "home"],
@@ -26,7 +26,7 @@
   if (header) {
     header.outerHTML =
       '<header class="site-header"><div class="container nav-wrap">' +
-      '<a class="brand" href="index.html"><img src="images/logo.svg" alt="Institution logo"><span>' + SITE.name + "</span></a>" +
+      '<a class="brand" href="index.html"><img src="images/logo1.png" alt="Institution logo1"><span>' + SITE.name + "</span></a>" +
       '<button class="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>' +
       '<nav aria-label="Main"><ul class="nav-links" id="nav">' + links + "</ul></nav></div></header>";
   }
@@ -40,7 +40,7 @@
       "<div><h3>" + SITE.name + "</h3><p>Computer training and commerce education that prepares students for college, careers and business.</p></div>" +
       "<div><h3>Quick Links</h3><ul>" + quick + "</ul></div>" +
       "<div><h3>Contact</h3><ul><li>" + SITE.address + '</li><li><a href="tel:' + SITE.phone.replace(/\s/g, "") + '">' + SITE.phone + '</a></li><li><a href="mailto:' + SITE.email + '">' + SITE.email + "</a></li></ul>" +
-      '<div class="social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">in</a><a href="#" aria-label="YouTube">yt</a></div></div>' +
+      '<div class="social"><a href="https://www.instagram.com/master_institute_?rpxt=N2R2bGp4enFxeTNl" aria-label="Instagram">in</a><a href="https://jsdl.in/DT-41UMIMYMU26" aria-label="JustDial">jd</a></div></div>' +
       '</div><p class="copyright">&copy; <span id="year"></span> ' + SITE.name + ". All rights reserved.</p></div></footer>";
     document.getElementById("year").textContent = new Date().getFullYear();
   }
